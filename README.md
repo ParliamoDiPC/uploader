@@ -1,5 +1,12 @@
 # uploader
 Upload images, text and files
+#### Use Fasm.ga! https://www.fasm.ga
+### How to setup the uploader
+1. Setup the "site" variable on line 23
+2. If you want to make the uploader private, setup a password on the .env file
+3. Setup, on uploader.sxcu and on uploader_text.sxcu, the RequestURL field with your site and /upload (/txt_upload on uploader_text.sxcu) (example: https://upload.com/upload)
+4. Done.
+
 ### Packages' licenses
 #### Water.css
 The MIT License (MIT)
