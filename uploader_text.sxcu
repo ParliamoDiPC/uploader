@@ -1,6 +1,6 @@
 ﻿{
   "Version": "13.4.0",
-  "Name": "my.pdpc.gq (testo)",
+  "Name": "Text Uploader",
   "DestinationType": "TextUploader",
   "RequestMethod": "POST",
   "RequestURL": "",
