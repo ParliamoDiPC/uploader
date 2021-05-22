@@ -1,0 +1,15 @@
+﻿{
+  "Version": "13.4.0",
+  "Name": "my.pdpc.gq (testo)",
+  "DestinationType": "TextUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "",
+  "Headers": {
+    "password": ""
+  },
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "text": "$input$"
+  },
+  "FileFormName": "text"
+}

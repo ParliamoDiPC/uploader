@@ -1,0 +1,14 @@
+﻿{
+  "Version": "13.4.0",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "",
+  "Headers": {
+    "password": ""
+  },
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "file": "$input$"
+  },
+  "FileFormName": "file"
+}
