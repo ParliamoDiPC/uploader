@@ -1,5 +1,6 @@
 ﻿{
   "Version": "13.4.0",
+  "Name": "File Uploader",
   "DestinationType": "ImageUploader, FileUploader",
   "RequestMethod": "POST",
   "RequestURL": "",
