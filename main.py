@@ -20,7 +20,7 @@ import json, os, string, random, shutil
 
 app = Flask("uploader", template_folder = os.path.abspath("pages"))
 
-site = "https://upload.com" # Replace with your site (END THE URL WITH A BACKSLASH)
+site = "https://upload.com/" # Replace with your site (END THE URL WITH A BACKSLASH)
 
 ############################### Site home
 
