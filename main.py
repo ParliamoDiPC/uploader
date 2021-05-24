@@ -44,6 +44,7 @@ def txt_fileget(file):
 	try:
 		with open("data.json", "r") as f:
 			jsonfile = json.load(f)
+			if request.args.get("only_text"): return jsonfile[file]["text"]
 			if not request.args.get("enable_html"): return render_template("text.html", text = jsonfile[file]["text"], code = file)
 			if not request.args.get("enable_html") == "1": return render_template("text.html", text = jsonfile[file]["text"], code = file)
 			return render_template("text_html.html", text = jsonfile[file]["text"], code = file)
