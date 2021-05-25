@@ -1,6 +1,6 @@
 # uploader
 Upload images, text and files
-#### Use Fasm.ga! https://www.fasm.ga
+#### Use Fasm.ga! https://www.fasmga.org
 ### How to setup the uploader
 1. Setup the "site" variable on line 23
 2. If you want to make the uploader private, setup a password on the .env file
